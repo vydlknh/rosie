@@ -1,4 +1,4 @@
-package com.kirby.myapplication;
+package com.kirby.rosie;
 
 import android.content.Context;
 
