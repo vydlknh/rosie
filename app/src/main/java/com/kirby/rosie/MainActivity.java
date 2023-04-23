@@ -4,11 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import android.graphics.Color;
 
 import android.os.Bundle;
 
-import com.kirby.rosie.R;
 import com.kirby.rosie.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
             } else if (itemId == R.id.resources) {
                 replaceFragment(new ResourcesFragment());
             }
-
             return true;
         });
     }
