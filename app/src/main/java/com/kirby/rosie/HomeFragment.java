@@ -66,15 +66,13 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v =  inflater.inflate(R.layout.fragment_home, container, false);
-        Button btnreport = (Button) v.findViewById(R.id.button_report);
-        btnreport.setOnClickListener(new View.OnClickListener() {
+        Button btnnext = v.findViewById(R.id.button_next);
+        btnnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentTransaction manager = getFragmentManager().beginTransaction().setReorderingAllowed(true);
-                manager.replace(R.id.homelayout, new ReportFragment(), null);
-                manager.addToBackStack(null);
-                Toast.makeText(getActivity(), "report", Toast.LENGTH_SHORT).show();
-                manager.commit();
+                FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.homelayout, new EndFragment());
+                fragmentTransaction.commit();
             }
         });
         return v;
