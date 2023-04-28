@@ -26,7 +26,7 @@
         android:id="@+id/button_hotlines"
         android:layout_width="180dp"
         android:layout_height="60dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="100dp"
         android:backgroundTint="@color/coral"
         android:text="Hotlines"
         android:textColor="@color/black"

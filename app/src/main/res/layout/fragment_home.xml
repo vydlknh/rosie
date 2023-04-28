@@ -41,7 +41,6 @@
         android:text="Provide as much as you are comforble to"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_communities" />
 
@@ -53,7 +52,6 @@
         android:fontFamily="@font/merriweather_sans"
         android:text="Who did it?"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/report_subtitle" />
 
@@ -73,7 +71,7 @@
         android:id="@+id/textview_what"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/merriweather_sans"
         android:text="What happened?"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,11 +94,10 @@
         android:id="@+id/textview_where"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/merriweather_sans"
         android:text="Where did it happen?"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edittext_what" />
 
@@ -120,11 +117,10 @@
         android:id="@+id/textview_when"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/merriweather_sans"
         android:text="When did it happen?"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edittext_where" />
 
@@ -144,23 +140,12 @@
         android:id="@+id/button_next"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="72dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="@color/coral"
         android:text="Next"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edittext_when" />
-
-    <Button
-        android:id="@+id/button_clear"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="32dp"
-        android:backgroundTint="@color/coral"
-        android:text="Clear"
-        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edittext_when" />
 

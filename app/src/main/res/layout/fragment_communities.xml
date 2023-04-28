@@ -25,12 +25,12 @@
         android:id="@+id/textview_wc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:fontFamily="@font/merriweather_sans_bold"
         android:text="Women's Center"
+        android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_oncampus" />
 
@@ -42,6 +42,7 @@
         android:fontFamily="@font/merriweather_sans"
         android:text="Open weekdays from 10am-10pm.\n306 Hanna Street
 \nPhone: 765-658-4173\nEmail: sryan@depauw.edu"
+        android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,9 +55,9 @@
         android:layout_marginTop="24dp"
         android:fontFamily="@font/merriweather_sans_bold"
         android:text="Feminista!"
+        android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_wc_desc" />
 
@@ -67,6 +68,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/merriweather_sans"
         android:text="401 S Indiana Street\n@feministadpu on Instagram"
+        android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +84,6 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_communities" />
 
@@ -93,6 +94,7 @@
         android:layout_marginTop="36dp"
         android:textSize="16sp"
         android:text="State"
+        android:textColor="@color/black"
         android:fontFamily="@font/merriweather_sans_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,12 +104,12 @@
         android:id="@+id/textview_inclub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:fontFamily="@font/merriweather_sans_bold"
         android:text="Indiana Federation of Colored Women's Clubs"
+        android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_state" />
 
@@ -117,11 +119,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/merriweather_sans"
-        android:text="2034 N. Capitol Avenue, Indianapolis\n(Marion County, Indiana)\n
-Erected 1997 Indiana Historical Bureau and Indiana Federation of Colored Women's Clubs"
+        android:text="2034 N. Capitol Avenue, Indianapolis\n(Marion County, Indiana)
+        \nErected 1997 Indiana Historical Bureau and Indiana Federation of Colored Women's Clubs"
+        android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_inclub" />
 
@@ -133,8 +135,8 @@ Erected 1997 Indiana Historical Bureau and Indiana Federation of Colored Women's
         android:fontFamily="@font/merriweather_sans_bold"
         android:textSize="12sp"
         android:text="Planned Parenthood"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -147,9 +149,9 @@ Erected 1997 Indiana Historical Bureau and Indiana Federation of Colored Women's
         android:text="Southside Health Center: 935 E Hanna Av a, Indianapolis
 \nGeorgetown Health Center: 8590 Georgetown Rd, Indianapolis
 \nMidtown Health Center: 3750 N Meridian St Ste 100, Indianapolis"
+        android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_pp" />
 

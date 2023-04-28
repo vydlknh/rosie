@@ -31,6 +31,7 @@
         android:fontFamily="@font/merriweather_sans_bold"
         android:gravity="center_vertical"
         android:text="Sexual Assault Survivor's Advocate"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_communities" />
 
@@ -42,7 +43,8 @@
         android:fontFamily="@font/merriweather_sans_bold"
         android:text="(765) 658-4650"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.687"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.670"
         app:layout_constraintStart_toEndOf="@+id/textview_sasa"
         app:layout_constraintTop_toBottomOf="@+id/textview_communities" />
 
@@ -55,6 +57,7 @@
         android:fontFamily="@font/merriweather_sans_bold"
         android:gravity="center_vertical"
         android:text="DePauw Police"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_sasa" />
 
@@ -65,8 +68,9 @@
         android:layout_marginTop="68dp"
         android:fontFamily="@font/merriweather_sans_bold"
         android:text="(765) 658-5555"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintHorizontal_bias="0.70"
         app:layout_constraintStart_toEndOf="@+id/textview_police"
         app:layout_constraintTop_toBottomOf="@+id/sasanumber" />
 
@@ -79,6 +83,7 @@
         android:fontFamily="@font/merriweather_sans_bold"
         android:gravity="center_vertical"
         android:text="Women's Center"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_police" />
 
@@ -89,8 +94,9 @@
         android:layout_marginTop="76dp"
         android:fontFamily="@font/merriweather_sans_bold"
         android:text="(765) 658-4173)"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintHorizontal_bias="0.70"
         app:layout_constraintStart_toEndOf="@+id/textview_womenscenter"
         app:layout_constraintTop_toBottomOf="@+id/policenumber" />
 
@@ -103,6 +109,7 @@
         android:fontFamily="@font/merriweather_sans_bold"
         android:gravity="center_vertical"
         android:text="RAINN Rape and Abuse national network"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_womenscenter" />
 
@@ -113,8 +120,9 @@
         android:layout_marginTop="72dp"
         android:fontFamily="@font/merriweather_sans_bold"
         android:text="1800-656-HOPE"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintHorizontal_bias="0.70"
         app:layout_constraintStart_toEndOf="@+id/textview_rainn"
         app:layout_constraintTop_toBottomOf="@+id/womenscenternumber" />
 </androidx.constraintlayout.widget.ConstraintLayout>
