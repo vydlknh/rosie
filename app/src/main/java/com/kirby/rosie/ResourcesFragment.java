@@ -71,6 +71,26 @@ public class ResourcesFragment extends Fragment {
                 fragmentTransaction.commit();
             }
         });
+
+        Button btnmap = v.findViewById(R.id.button_map);
+        btnmap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.resourcelayout, new MapFragment());
+                fragmentTransaction.commit();
+            }
+        });
+
+        Button btncomm = v.findViewById(R.id.button_communities);
+        btncomm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.resourcelayout, new CommunitiesFragment());
+                fragmentTransaction.commit();
+            }
+        });
         return v;
     }
 }
